@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         div
+        {
+            background-color: whitesmoke;
+            width: 700px;
+            height: auto;
+            margin-top: 70px;
+            margin: auto;
+    
+            border-radius: .5rem;
+            color: black;
+
+        }
+        body
+        {
+            padding-top: 100px;
+    
+        }
+        label{
+            width: 130px;
+            display: inline-block;
+        }
+       .btn3{
+        margin-left: 40px;
+       }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h1><b>Online Job Registration Portal</b></h1>
+    <h4>Register yourself to get new job updates</h4><br>
+    <hr>
+        <table cellspacing="8px" cellpadding="5px">
+            <tr>
+                <td><label for="">Full name:</label></td>
+                <td><input type="text" placeholder="First name" required><br>firstname</td>
+                <td><input type="text" placeholder="last name" required><br>Lastname</td><br>
+            </tr>
+            <br>
+
+            <tr>
+                <td rowspan="4"><label for="">Address:</label></td>
+                <td colspan="2"><input type="text" placeholder="Street address" required><br>Street address</td><br>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" placeholder="street addressline 2" required><br>street address2</td><br>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="city"><br>city</td>
+                <td><input type="text" placeholder="state"><br>state</td><br>
+            </tr>
+            <tr>
+                <td><input type="number" placeholder="pincode"><br>pincode</td>
+                <td><select name="" id="" placeholder="country">
+                    <option value=""> please select</option><br>
+                    <option value="">india</option><br>
+                    <option value="">caneda</option><br>
+                    <option value="">uk</option><br>
+                    <option value="">us</option><br>
+        
+                </select><br>country</td>
+            </tr>
+            <tr>
+                <td><label for="">Phone Number:</label></td>
+                <td><input type="text" style="width: 65px;" maxlength="3" placeholder="Area code" required><br>Area code</td>
+                <td><input type="number" maxlength="10" placeholder="phone number" required><br>phone number</td>
+            </tr>
+            <tr>
+                <td><label for="">Mobile:</label></td>
+                <td><input type="number" maxlength="10"></td>
+
+            </tr>
+            <tr>
+                <td><label for="">E-mail:</label></td>
+                <td><input type="email" placeholder="ex:myname@example.com" required></td>
+            </tr>
+            <tr>
+            <td>
+            <label for="">Cover Letter:</label></td>
+            <td><textarea name="" id="" cols="25" rows="10"></textarea>
+            </td>
+            </tr>
+            <tr>
+                <td><label for="">Resume:</label> </td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><label for="">decleration:</label></td>
+                <td><input type="checkbox">The above information filled by me is true. I also accept all the terms and conditions.</td>
+            </tr>
+           <div class="btn3">
+            <tr>
+                <td></td>
+                <td><input type="submit"value="submit" class="btn1"></td>
+                <td><input type="button" value="Reset" class="btn2"></td>
+            </tr>
+            </div>
+            </table>
+        </div>
+
+                
+            
+    
+
+</body>
+</html>
